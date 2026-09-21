@@ -35,7 +35,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.sizh.rideon.rider.taxiapp"
+    namespace = "com.pothersathi.customer"
 
     compileSdkVersion 36
 
