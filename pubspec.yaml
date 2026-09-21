@@ -1,20 +1,19 @@
 name: ride_on
 description: "RideOn is a smart and reliable taxi booking app built for your daily travel needs. With trusted drivers, quick pickups, ride history, and 24/7 customer support, Zup makes every journey smooth and stress-free."
 
-publish_to: 'none' 
-
+publish_to: 'none'
 
 version: 1.0.6+8
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
 
-
 dependencies:
   flutter:
     sdk: flutter
+
   flutter_localizations:
-    sdk: flutter 
+    sdk: flutter
 
   cupertino_icons: ^1.0.6
   flutter_bloc: ^9.0.0
@@ -23,7 +22,9 @@ dependencies:
   hive_flutter: ^1.1.0
   hive: ^2.2.3
   flutter_svg: ^2.0.17
-  google_fonts: ^6.2.1
+
+  google_fonts: ^6.3.2
+
   intl_phone_field: ^3.2.0
   google_maps_flutter: ^2.10.0
   firebase_auth: ^5.5.2
@@ -54,29 +55,21 @@ dependencies:
   sign_in_with_apple: ^6.1.1
   url_launcher: ^6.3.1
 
-
-
-
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
   flutter_lints: ^3.0.0
   flutter_launcher_icons: ^0.13.1
+
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/images/appicons.png"
   image_path_ios: "assets/images/appicons.png"
 
-
 flutter:
-
-
   uses-material-design: true
-
 
   assets:
     - assets/images/
@@ -88,26 +81,31 @@ flutter:
     - family: Poppins Black
       fonts:
         - asset: assets/fonts/Poppins-Black.ttf
+
     - family: Poppins Bold
       fonts:
         - asset: assets/fonts/Poppins-Bold.ttf
+
     - family: Poppins Medium
       fonts:
         - asset: assets/fonts/Poppins-Medium.ttf
+
     - family: Poppins Regular
       fonts:
         - asset: assets/fonts/Poppins-Regular.ttf
+
     - family: Poppins Light
       fonts:
         - asset: assets/fonts/Poppins-Light.ttf
+
     - family: Poppins SemiBold
       fonts:
         - asset: assets/fonts/Poppins-SemiBold.ttf
+
     - family: Poppins ExtraBold
       fonts:
         - asset: assets/fonts/Poppins-ExtraBold.ttf
-    - family:  Poppins Thin
+
+    - family: Poppins Thin
       fonts:
         - asset: assets/fonts/Poppins-Thin.ttf
-
-  
